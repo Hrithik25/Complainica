@@ -1,0 +1,82 @@
+@page {
+    size:  8.3in 11.7in;
+}
+@font-face {
+    font-family: "Bangle";
+    src: url("../fonts/bangn__.ttf");
+}
+@font-face {
+    font-family: "Humanst521";
+    src: url("../fonts/HUM521N.TTF");
+}
+body{
+    color:black;
+}
+#headDiv{
+    border-bottom: 2px solid black;
+    color: black;
+}
+#headSpan{
+    font-family: "Bangle";
+    font-size: 27px;
+    color:black;
+    margin-left: 70px;
+}
+#cidSpan{
+    margin-left: 200px;
+    font-family:Humanst521;
+    font-size:20px;
+}
+#compInfoDiv,#stuInfoDiv{
+    margin-top: 20px;
+}
+#compInfo,#stuInfo{
+    font-size: 22px;
+    font-family: Humanst521;
+    color: black;
+    border-bottom: 1px solid black;
+    width:250px;
+}
+#compInfoTab,#stuInfoTab{
+    color:black;
+    border-spacing: 5px;
+    padding:15px;
+}
+td{
+    font-family: Humanst521;
+    word-wrap: break-word;
+    padding-top:2px;
+    /*border: 1px solid black;*/
+}
+
+.labelSpan{
+    padding-left:35px;
+    font-size: 18px;
+    width: 180px;
+}
+.areaInput{
+    padding-left:65px;
+    font-size: 18px;
+}
+.statusLabel,.statusInput{
+    font-size: 22px;
+}
+.signDiv{
+    position: absolute;
+    top: 975px;
+    padding-bottom:7px;
+    border-bottom: 1px solid black;
+}
+.signBlank{
+    margin-left: 20px;
+}
+.authSign{
+    margin-left: 40px;
+}
+.credits{
+    position: absolute;
+    top:1030px;
+    left:320px;
+    font-size: 10px;
+
+}

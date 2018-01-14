@@ -1,0 +1,28 @@
+.asterisk{
+    color:red;
+}
+
+#reset-btn{
+    display: inline;
+}
+#error-msg{
+    position: absolute;
+    left:20%;
+    padding:1%;
+    text-align:center;
+    width:50%;
+    z-index: 2;
+}
+#suc-msg{
+    /*display:none;*/
+    position: absolute;
+    left:20%;
+    padding:1%;
+    text-align:center;
+    width:50%;
+    z-index: 3;
+}
+#reg-btn,#reset-btn {
+    width: 150px;
+    margin-left: 20%;
+}

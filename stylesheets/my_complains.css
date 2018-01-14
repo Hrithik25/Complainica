@@ -1,0 +1,166 @@
+@font-face {
+    font-family: "Humanst521 BT";
+    src: url(../fonts/HUM521N.TTF);
+}
+@font-face {
+    font-family: "Orator Std";
+    src: url(../fonts/OratorStd.otf);
+
+}
+@font-face {
+    font-family: "Prestige Elite Std";
+    src: url(../fonts/PrestigeEliteStd-Bd.otf);
+}
+#my-complain-div{
+    /*border-style: solid;*/
+}
+#pending-tab,#past-tab{
+    width:50%;
+    text-align: center;
+    font-family: "Humanst521 BT";
+    font-size: 30px;
+    height:30%;
+}
+#tab-body{
+    margin-top:5%;
+}
+#error-msg{
+    position: absolute;
+    left:20%;
+    padding:1%;
+    text-align:center;
+    width:50%;
+    z-index: 2;
+}
+#suc-msg{
+    /*display:none;*/
+    position: absolute;
+    left:20%;
+    padding:1%;
+    text-align:center;
+    width:50%;
+    z-index: 3;
+}
+.comp-head{
+    width:100%;
+    height: inherit;
+    /*border:solid;*/
+    padding:0%;
+
+}
+.c-head-div{
+    /*border:solid;*/
+    padding: 1%;
+    padding-top: 2%;
+    /*font-family:"Carmine Tango";*/
+    font-family: "Orator Std";
+
+    font-size:large;
+}
+.comp-desc{
+    font-family: "Prestige Elite Std";
+    font-size: large;
+}
+.sub-head{
+    /*border-style: solid;*/
+    width:85%;
+    display: inline-block;
+}
+.solve-btn{
+    margin-left: 38.86%;
+    padding-top: 1%;
+    display: inline;
+    font-size:20px;
+    width: 30%;
+    min-width: 225px;
+    font-family: "Orator Std";
+}
+
+#comp-desc-form label{
+    font-style: italic;
+    color: blue;
+}
+#full{
+    position: absolute;
+    top:-29%;
+    left:-27%;
+    width:135%;
+    height:141%;
+    background-color: #3c3c3c;
+    z-index: 3;
+    opacity: 0;
+    display: none;
+}
+
+.print-btn{
+    /*margin-left: 10%;*/
+    padding-top: 1%;
+    display: inline;
+    font-size:20px;
+    width: 30%;
+    min-width: 225px;
+    font-family: "Orator Std";
+}
+
+
+.confirm-div{
+    position: fixed;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #9d9d9d;
+    padding: 3%;
+    background-color: white;
+    width: 35%;
+    top:25%;
+    left:-35%;
+    z-index: 4;
+    display: none;
+}
+.time{
+    margin-left: 2%;
+    font-size: 15px;
+    font-style: italic;
+}
+.msg{
+    margin-bottom: 10%;
+    font-size: x-large;
+    font-family: "Humanst521 BT";
+}
+
+.cnf-btn,.can-btn{
+    width:30%;
+    font-family: "Humanst521 BT";
+    font-size: 20px;
+}
+.cnf-btn{
+    margin-left: 13%;
+    margin-right: 10%
+}
+.desc{
+    word-wrap:break-word;
+}
+@media screen and (max-width: 973px) {
+    .confirm-div{
+        width:292px;
+    }
+}
+@media screen and (max-width: 1286px){
+
+    .sub-head {
+        display: block;
+        margin-bottom: 1%;
+    }
+    .time{
+        margin-left: 80%;
+    }
+}
+@media screen and (max-width: 1147px){
+    .solve-btn,.info-btn{
+        margin-left: 50%;
+    }
+}
+@media screen and (max-width: 1078px){
+    .back-btn{
+    margin-left:30%;
+}
+}

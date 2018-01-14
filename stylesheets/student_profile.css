@@ -1,0 +1,95 @@
+@font-face {
+    font-family: "Humanst521 BT";
+    src: url(../fonts/HUM521N.TTF);
+
+
+}
+#dp{
+    position:absolute;
+    background-color: white;
+    width:15%;
+    border-radius: 10px;
+    top:5%;
+    left: 2%;
+    min-width: 109px;
+
+}
+#dp_img{
+    width: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#name-reg{
+    font-family:Humanst521 BT;
+    font-size: 18px;
+    color: black;
+}
+#nav-bar{
+    background-color: white;
+    position:absolute;
+    top: 25vw;
+    left: 2%;
+    border-radius: 10px;
+    width: 16%;
+
+}
+.nav-elements{
+   position: relative;
+    font-size:1.8vw;
+    z-index:0;
+    font-family: Humanst521 BT;
+    padding:1%;
+    border:1px solid black;
+    color: black;
+    width:100%;
+    background-color: white;
+   /* transition: width 0.5s;*/
+}
+.nav-elements:hover {
+    z-index: 1;
+    /*width: 120%;*/
+    background-color:black;
+    color:white;
+}
+
+#nav-bar > a,#nav-bar > a:hover,#nav-bar > a:active,#nav-bar > a:visited,#nav-bar > a:focus{
+    text-decoration: none;
+}
+
+#edit {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#chat{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+
+@media screen and (max-width: 902px) {
+    .nav-span{
+        display: none;
+    }
+    .nav-elements{
+        font-size:20px;
+        transition:width 0s;
+
+    }
+    #nav-bar{
+        width:7%;
+        top:220px;
+        left:43px;
+        min-width:58px;
+    }
+   .nav-elements:hover{
+        width: 400%;
+        z-index: 1;
+
+
+    }
+    .nav-elements:hover  .nav-span{
+        display: inline;
+    }
+
+}
