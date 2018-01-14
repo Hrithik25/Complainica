@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "BankGothic Lt BT";
+    src: url(../fonts/BNKGOTHL.TTF);
+}
+#worker{
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 15%;
+}
+#back{
+    position:absolute;
+    top:48%;
+    left:50%;
+    width: 40%;
+    font-family: BankGothic Lt BT;
+    font-size:2.5vw;
+    /*min-width: 510px;*/
+
+}
+@media screen and (max-width:941px) {
+#back {
+   width: 350px;
+    font-size: 23px;
+}
+
+}
+@media screen and (max-width: 706px) {
+    #back{
+            top:60%;
+        left:40%;
+    }
+}

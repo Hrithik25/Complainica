@@ -1,0 +1,75 @@
+@font-face {
+    font-family:"Albertus Medium";
+    src: url(../fonts/ALBERTME.TTF);
+}
+html, body {
+    height: 100%;
+    min-width:723px;
+}
+
+.header {
+    position:relative;
+    width: 80%;
+    height: 18%;
+    left:18%;
+    min-height:99px;
+    background-color: white;
+    border-radius: 10px;
+    top: 5%
+}
+
+#bg {
+    position: fixed;
+    top: 0%;
+    left: 0px;
+    width: 100%;
+    height: inherit;
+    z-index: -1;
+}
+
+#logo {
+    position: absolute;
+    width: 150px;
+    min-width: 108px;
+    min-height: 69px;
+    left: 5%;
+}
+#heading {
+    position: absolute;
+    left: 55%;
+    top: 40%;
+
+  font-family: Albertus Medium;
+    font-size:25px;
+}
+#mnnit_logo{
+    position: absolute;
+    width: 75px;
+    min-height: 69px;
+    min-width: 61px;
+    top:1%;
+    left:88%;
+}
+#logout{
+    position: absolute;
+    top:45%;
+    left:75%;
+    font-size:20px;
+    text-decoration: underline;
+}
+@media screen and (max-width: 1006px) {
+    .header{
+        width: 80%;
+    }
+    #heading{
+        left:44%;
+        font-size: 20px;
+    }
+    #logout{
+        left:64%;
+        font-size: 18px;
+    }
+    #mnnit_logo{
+        left:84%
+    }
+}

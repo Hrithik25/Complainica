@@ -1,0 +1,34 @@
+#form-div {
+    margin-top: 10%;
+}
+
+#reg-form{
+
+    margin-top: 2%;
+}
+#title{
+
+    font-size: large;
+}
+.asterisk{
+    color: red;
+}
+#reset-btn{
+    display: inline;
+}
+#error-msg{
+    /*display:none;*/
+    margin-left: 25%;
+    padding:1%;
+    text-align:center;
+    width:50%;
+}
+#reg-btn,#reset-btn {
+    width: 150px;
+    margin-left: 20%;
+}
+#agree{
+    margin-left: 15%;
+    color:red;
+    font-size: 12px;
+}

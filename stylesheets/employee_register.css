@@ -1,0 +1,19 @@
+#title{
+
+    font-size: large;
+}
+
+#form-div {
+    margin-top: 10%;
+}
+.asterisk{
+    color: red;
+}
+
+#reset-btn{
+    display: inline;
+}
+#reg-btn,#reset-btn {
+    width: 150px;
+    margin-left: 20%;
+}

@@ -1,0 +1,54 @@
+html,body{
+   min-width: 654px;
+}
+
+.header {
+    position: relative;
+    width: 96%;
+    left: 2vw;
+    top:2vw;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#bg{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    width: 100%;
+    min-width: 654px;
+    height: 100%;
+    z-index: -1;
+}
+#logo{
+    width: 15%;
+    height: 100%;
+    border-radius: 20px;
+}
+#heading{
+    position: absolute;
+    left:33%;
+    top:32%;
+
+    font-family:Amelia;
+    font-size:5vw;
+}
+#mnnit_logo{
+    position: absolute;
+    top:1%;
+    left:90%;
+    height:98%;
+    width:8%;
+}
+@media screen and (max-width: 994px) {
+    #heading {
+        font-size: 48px;
+    }
+
+    #logo {
+    }
+    #heading{
+        top:15%;
+        left:27%;
+    }
+}

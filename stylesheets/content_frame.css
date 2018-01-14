@@ -1,0 +1,15 @@
+#form-div{
+    position: absolute;
+    left:20%;
+    top:17vw;
+    width: 75%;
+    min-width: 567px;
+    z-index: 0;
+
+}
+@media screen and (max-width: 902px){
+    #form-div{
+        left:160px;
+        top:160px;
+    }
+}
