@@ -17,10 +17,11 @@ Web Portal for lodging complains. Where student can file compalin regarding elec
   - Mark complain as solved.
   - View resolved and unresolved complains.
   
- ## Feature to be added
+ ## Features intended to implement
 
- - Chat regarding complains
- - Notification for new complains
+ - Chat with complain resolvers and lodgers regarding complains
+ - Notification regarding status of complains
+ - Pagination in the logs of complains
   
  ## Contributors
 
