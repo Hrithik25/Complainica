@@ -1,10 +1,10 @@
 # Complainica
-------------
+
 Web Portal for lodging complains. Where student can file compalin regarding electricity, civil, hygene problems in campus and respective admin can work on it.
 
 
 ## Basic Features
-------------
+
 - Create student/employee account.
 - Student/Employee account feature
   - User can file complain with description regarding electricity, civil, hygene problems in campus.
@@ -18,13 +18,12 @@ Web Portal for lodging complains. Where student can file compalin regarding elec
   - View resolved and unresolved complains.
   
  ## Feature to be added
- ------------
+
  - Chat regarding complains
  - Notification for new complains
- 
- 
+  
  ## Contributors
- ---------------
+
  - [Jyot Mehta](https://github.com/JAshMe/)
  - [Yash Chapani](https://github.com/yashchapani/)
  - [Jatin Tayal](https://github.com/jatin0/)
